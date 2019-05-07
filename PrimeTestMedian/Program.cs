@@ -32,6 +32,7 @@ namespace PrimeTestMedian
                 services.AddTransient<PrintData>();
                 services.AddTransient<CSVReader>();
 
+
                 var provider = services.BuildServiceProvider();
                 var _fileOpCheck = provider.GetService<FileOpCheck>();
                 var _calcMedian = provider.GetService<CalculateMedian>();
