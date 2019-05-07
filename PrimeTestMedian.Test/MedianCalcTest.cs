@@ -36,7 +36,7 @@ namespace PrimeTestMedian.Test
             double result = mockcalcMedian.CalcMedian(records);
 
             // Assert
-            Assert.AreEqual(result, 2.75);
+            Assert.AreEqual(result, 2.25);
         }
 
         [TestMethod]
@@ -54,7 +54,7 @@ namespace PrimeTestMedian.Test
             double result = mockcalcMedian.CalcMedian(records);
 
             // Assert
-            Assert.AreEqual(result, 2.0);
+            Assert.AreEqual(result, 2.5);
         }
 
         [TestMethod]
